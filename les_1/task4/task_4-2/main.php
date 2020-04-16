@@ -10,7 +10,7 @@
 <br><br>
 <?=$description?>
 <br><br>
-<?=$image?>
+<img src="<?=$image?>" alt="">
 <br><br>
 <b>Просто пример жирного текста</b>
 <br><br>

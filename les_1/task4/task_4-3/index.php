@@ -6,10 +6,10 @@ $description = 'Краткая биография обо мне
     На данный момент работаю ведущим инженером в крупной авиакомпании.
     Поскольку я люблю авиацию, то хотел бы поделиться несколькими интересными
     фотографиями на эту тему';
-$image = '<img src="../aviator.jpg" alt="">';
+$image = '../aviator.jpg';
 $date = 2018;
 
-$content = file_get_contents("main.tmp");
+$content = file_get_contents("main.tmpl");
 
 $content = str_replace("{{ TITLE }}", $title, $content);
 $content = str_replace("{{ H1-TITLE }}", $h1title, $content);
